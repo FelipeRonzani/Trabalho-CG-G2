@@ -20,15 +20,16 @@ def medir_area(imagem_binaria):
     for contorno in contornos:       
         # Calcular a área do contorno
         area = cv2.contourArea(contorno)
-        # Filtrar contornos com base em uma área mínima e máxima
+        # Filtrar contornos com base em uma área mínima
         if 100000 < area:
-            area_total += area
+            area_total = area
     return area_total
 
 # Função para pré-processar a imagem e focar na sola do pé
 def preprocessar_imagem(imagem):
 
     # Assumindo que a régua ocupa os primeiros pixels da imagem
+    # Cortamos o topo da imagem para deixar apenas o pé o máximo possível
     altura_corte = 225
 
     # Cortar a parte superior da imagem para remover a régua
