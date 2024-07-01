@@ -1,6 +1,7 @@
 # Trabalho-CG-G2
 O objetivo deste trabalho é a binarização de imagens e tentar medir a área da palma dos pés presentes nas imagens.
-Resumidamente, as imagens foram cortadas para remover o máximo da régua o possível, após a imagem foi reprocessada para remover objetos pequenos e algumas das deformidades em algumas das imagens, após é feito a busca por contornos e assim a área é calculada com base no maior contorno encontrado, contornos menores são ignorados. A área acabou ficando em pixels pois converter este valor para centimetros quadradros, por exemplo, seria complicado se não impossível. Por fim creio que estas medidas são as mais consistentes em termos de aparecerem constantemente com uma variação aceitável, mas não tenho certeza se o método para medi-lás está correto.
+Resumidamente, as imagens foram cortadas para remover o máximo da régua o possível, após a imagem foi reprocessada para remover objetos pequenos e algumas das deformidades em algumas das imagens, após é feito a busca por contornos e assim a área é calculada com base no maior contorno encontrado, contornos menores são ignorados. 
+A área acabou ficando em pixels pois converter este valor para centimetros quadradros, por exemplo, seria complicado se não impossível. Por fim creio que estas medidas são as mais consistentes em termos de aparecerem constantemente com uma variação aceitável, mas não tenho certeza se o método para medi-lás está correto.
 # Resultados
 Aproximadamente, estes são os números de pixels presentes no contorno da figura formada pela palma do pé nas imagens.
 
