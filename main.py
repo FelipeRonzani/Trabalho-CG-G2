@@ -30,7 +30,7 @@ def preprocessar_imagem(imagem):
 
     # Assumindo que a régua ocupa os primeiros pixels da imagem
     # Cortamos o topo da imagem para deixar apenas o pé o máximo possível
-    altura_corte = 225
+    altura_corte = 210
 
     # Cortar a parte superior da imagem para remover a régua
     imagem_cortada = imagem[altura_corte:, :]
