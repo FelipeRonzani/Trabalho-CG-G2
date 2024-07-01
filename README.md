@@ -8,12 +8,21 @@ A área acabou ficando em pixels pois converter este valor para centimetros quad
 Aproximadamente, estes são os números de pixels presentes no contorno da figura formada pela palma do pé nas imagens.
 
 Área da sola do pé na imagem pe1.png ~= **230406.5 pixels**
+
 Área da sola do pé na imagem pe2.png ~= **235018.0 pixels**
+
 Área da sola do pé na imagem pe3.png ~= **249527.5 pixels**
+
 Área da sola do pé na imagem pe4.png ~= **267321.5 pixels**
+
 Área da sola do pé na imagem pe5.png ~= **234550.0 pixels**
+
 Área da sola do pé na imagem pe6.png ~= **234739.0 pixels**
+
 Área da sola do pé na imagem pe7.png ~= **264328.0 pixels**
+
 Área da sola do pé na imagem pe8.png ~= **251389.5 pixels**
+
 Área da sola do pé na imagem pe9.png ~= **211695.0 pixels**
+
 Área da sola do pé na imagem pe10.png ~= **199179.5 pixels**
