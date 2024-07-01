@@ -1,5 +1,5 @@
 # Trabalho-CG-G2
-O objetivo deste trabalho é a binarização de imagens e tentar medir a área da palma dos pés presentes nas imagens.
+O objetivo deste trabalho é a binarização de imagens e tentar medir a área da palma dos pés presentes nas imagens. Feito individualmente.
 
 Resumidamente, as imagens foram cortadas para remover o máximo da régua o possível, após a imagem foi reprocessada para remover objetos pequenos e algumas das deformidades em algumas das imagens, após é feito a busca por contornos e assim a área é calculada com base no maior contorno encontrado, contornos menores são ignorados. 
 
